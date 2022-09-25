@@ -12,7 +12,7 @@ const Logger = require("@ryanforever/logger").v2
 function Server(port, debug) {
 	port = port || 3000
 	debug = debug || false
-	const logger = new Logger("reciever", {debug})
+	const logger = new Logger("receiver", {debug})
 
 	io.on("connection", client => {
 		const id = client.id
