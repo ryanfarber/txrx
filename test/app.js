@@ -10,9 +10,9 @@ this is an example app that you want to receive input.
 
 const {Receiver} = require("../src")
 const receiver = new Receiver(3000, true)
-
+console.log(`\nplease open a new terminal window and run transmitter.js\n\nnode transmitter.js\n`)
 receiver.on("message", data => {
-	console.log(`data: ${data} is type [${typeof data}]`)
+	console.log(`received data: "${data}" is type [${typeof data}]`)
 })
 
 receiver.listen()

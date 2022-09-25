@@ -2,9 +2,9 @@
 
 const EventEmitter = require("events")
 const util = require("util")
-const Prompt = require("../prompt.js")
+const Prompt = require("./prompt.js")
 const Logger = require("@ryanforever/logger").v2
-const logger = new Logger("sender", {debug: false})
+const logger = new Logger("transmitter", {debug: false})
 
 
 function Client(port) {

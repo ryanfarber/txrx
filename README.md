@@ -3,7 +3,10 @@ Send and receive messages between programs
 
 
 ## Usage
-Ever want to easily send data to a running program?  txrx makes it easy.
+Ever want to easily send data to a running program?  `txrx` makes it easy.
+
+## Why?
+Sometimes in development you just want to send some data to a running program, and dont want to have to mess around with servers or API requests.  This is much easier!
 
 ### app.js
 First, you will typically have your program, where you will be receiving data. Let's call it app.js:
@@ -55,7 +58,3 @@ node transmitter.js
 # app.js running...
 hello world
 ```
-
-
-## Why?
-Sometimes in development you just want to send some data to a running program, and dont want to have to mess around with servers or API requests.  This is much easier!
