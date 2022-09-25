@@ -6,14 +6,16 @@ Sometimes in development you just want to send some data to a running program, a
 
 
 ## Usage
-First, you will typically have your program/app/etc, where you will be receiving data. Let's call it app.js:
+First, you will typically have your program/app/etc, where you will be receiving data. Let's call it app.js.
+
+You will instantiate a `Receiver()` with a port of your choice.  it defaults to `3000`
 
 ### app.js (receiver)
 ```javascript
 // app.js
 
 const {Receiver} = require("txrx")
-const receiver = new Receiver(3000) // specify port
+const receiver = new Receiver(3000) // specify port. default 3000
 
 receiver.on("message", data => {
     console.log(data)
@@ -35,7 +37,7 @@ Next, create another script that we will use to run your transmitter/sender.
 const {Transmitter} = require("txrx")
 const transmitter = new Transmitter()
 
-transmitter.start()
+transmitter.start() // starts a command prompt in console
 ```
 
 ### Running the files
