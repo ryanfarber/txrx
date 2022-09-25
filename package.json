@@ -27,5 +27,14 @@
   },
   "files": [
     "src"
-  ]
+  ],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanfarber/txrx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanfarber/txrx/issues"
+  },
+  "homepage": "https://github.com/ryanfarber/txrx#readme"
 }
