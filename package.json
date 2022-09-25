@@ -1,6 +1,6 @@
 {
   "name": "txrx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple transmit/receive utility using websockets",
   "main": "index.js",
   "directories": {
