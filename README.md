@@ -1,4 +1,4 @@
-# txrx
+# txrx 📤📥
 Send and receive messages between programs
 
 ## What is this?
@@ -6,7 +6,7 @@ Sometimes in development you just want to send some data to a running program, a
 
 
 ## Usage
-First, you will typically have your program, where you will be receiving data. Let's call it app.js:
+First, you will typically have your program/app/etc, where you will be receiving data. Let's call it app.js:
 
 ### app.js (receiver)
 ```javascript
@@ -46,7 +46,7 @@ node app.js
 2) Open another console window and run `transmitter.js`. It will start running a command prompt.
 ```bash
 node transmitter.js
->
+> _
 ```
 3) Type a message
 ```bash
