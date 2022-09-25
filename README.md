@@ -8,7 +8,7 @@ Sometimes in development you just want to send some data to a running program, a
 ## Usage
 First, you will typically have your program, where you will be receiving data. Let's call it app.js:
 
-### app.js
+### app.js (receiver)
 ```javascript
 // app.js
 
@@ -38,6 +38,7 @@ const transmitter = new Transmitter()
 transmitter.start()
 ```
 
+### Running the files
 1) Open a console window and run `app.js`
 ```bash
 node app.js
