@@ -4,8 +4,6 @@ const readline = require("readline")
 const EventEmitter = require("events")
 const util = require("util")
 
-
-
 function Prompt(config = {}) {
 
 	let prefix = config.prefix || "> "
@@ -24,6 +22,4 @@ function Prompt(config = {}) {
 	EventEmitter.call(this)
 }
 util.inherits(Prompt, EventEmitter)
-
-
 module.exports = Prompt

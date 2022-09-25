@@ -1,15 +1,14 @@
 # txrx
 Send and receive messages between programs
 
-
-## Usage
-Ever want to easily send data to a running program?  `txrx` makes it easy.
-
-## Why?
+## What is this?
 Sometimes in development you just want to send some data to a running program, and dont want to have to mess around with servers or API requests.  This is much easier!
 
-### app.js
+
+## Usage
 First, you will typically have your program, where you will be receiving data. Let's call it app.js:
+
+### app.js
 ```javascript
 // app.js
 
@@ -27,9 +26,9 @@ receiver.listen()
 */
 ```
 
+Next, create another script that we will use to run your transmitter/sender. 
 
 ### transmitter.js
-Next, create another script that we will use to run your transmitter/sender. 
 ```javascript
 // transmitter.js
 
